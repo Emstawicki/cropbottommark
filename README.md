@@ -50,4 +50,4 @@ endforeach;
 
 ```
 #### Pseudo-benchmark
-Class was tested over x files (8.3 GiB) with avarage speed 21 files per second. The limitation is the maximum script execution time . Do not worry, even if you get an error 504 can restart the script , which skips previously cropped pictures .
+Class was tested over 50.000 files (8.3 GiB) with avarage speed 21 files per second. The limitation is the maximum script execution time . Do not worry, even if you get an error 504 can restart the script , which skips previously cropped pictures .
