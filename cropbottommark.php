@@ -12,16 +12,22 @@ class cropbottommark
     
     // CAN BE CONFIGURED:
     public $cut = 36;
- // HEIGHT IN PX
-                      // END
+    // HEIGHT IN PX
+    // COMMIT 1 ADDED TO CONSTRUCTOR
+    // END
     public $files = array();
 
     public $cropedfiles = array();
 
     public $dirs = array();
-
-    function __construct()
+    /**
+     * Constructor
+     * 
+     * @param int $cut            
+     */
+    function __construct($cut = 36)
     {
+        $this->cut = $cut;
         $this->cropedFiles();
     }
 
