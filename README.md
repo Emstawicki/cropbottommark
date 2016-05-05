@@ -28,11 +28,11 @@ $class->cropFile($file);
 endif;
 ```
 ### Example 3
-Crop all files in directory
+Crop all files in directory ( You can also add a cut height eg. 80 px)
 ```php
 <?php
 require_once 'cropbottommark.php';
-$class = new cropbottommark();
+$class = new cropbottommark(80);
 
 $dir = '/pathToOurImages';
 $files = $class->scanDir($dir);
